@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE collage
+[
+<!ELEMENT Student (St_ID, Name, Programme)>
+<!ELEMENT St_ID (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Programme (#PCDATA)>
+]
+>
+<collage>
+<Student catagory="Bachlors">
+ <St_ID> 1001 </St_ID>
+ <Name> Ravi </Name>
+ <Programme>Bachlor of Computer Applications</Programme>
+</Student>
+
+<Student catagory="Post_graduate">
+ <St_ID> 1002 </St_ID>
+ <Name> Ullman V </Name>
+ <Programme>Bachlor of Computer Applications</Programme>
+</Student>
+</collage>
